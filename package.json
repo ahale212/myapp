@@ -5,11 +5,9 @@
   "scripts": {
     "start": "node ./bin/www",
     "test": "mocha tests/unit",
-     "e2e-init": "webdriver-manager update",
+    "e2e-init": "webdriver-manager update",
     "e2e": "protractor tests/conf.js",
     "go": "nodemon ./bin/www"
-
-
   },
   "dependencies": {
     "body-parser": "~1.15.1",
@@ -18,11 +16,12 @@
     "debug": "~2.2.0",
     "express": "~4.13.4",
     "jade": "~1.11.0",
+    "jade-bootstrap": "*",
     "mocha": "^3.1.2",
     "morgan": "~1.7.0",
+    "protractor": "^4.0.10",
     "serve-favicon": "~2.3.0",
-    "supertest": "^2.0.1",
-    "jade-bootstrap":"*"
+    "supertest": "^2.0.1"
   },
   "main": "app.js",
   "devDependencies": {
