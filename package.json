@@ -6,7 +6,8 @@
     "start": "node ./bin/www",
     "test": "mocha tests/unit",
      "e2e-init": "webdriver-manager update",
-    "e2e": "protractor tests/conf.js"
+    "e2e": "protractor tests/conf.js",
+    "go": "nodemon ./bin/www"
 
 
   },
@@ -20,7 +21,8 @@
     "mocha": "^3.1.2",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0",
-    "supertest": "^2.0.1"
+    "supertest": "^2.0.1",
+    "jade-bootstrap":"*"
   },
   "main": "app.js",
   "devDependencies": {

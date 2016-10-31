@@ -40,13 +40,13 @@ after(function() {
     server.close()
 })
 
-describe('OMG Albums', function() {
+describe('My App', function() {
     describe('Given a browser', function() {
-        describe('When I visit the albums website', () => {
+        describe('When I visit the myapp website', () => {
             it('Then I see the welcome page', function() {
                 browser.get('/');
                 element(by.css('h1')).getText().then((text) => {
-                    expect(text).to.equal('Express');
+                    expect(text).to.equal('MyApp');
                 })
             })
         })
